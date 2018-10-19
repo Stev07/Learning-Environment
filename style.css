@@ -1,0 +1,22 @@
+*{margin:0px; padding: 0px;}
+body{padding: 0px 5px 0px 5px;}
+
+.sommaire{
+  height: 50px;
+  border-bottom: 2px solid #590AE8;
+  margin-bottom: 20px;
+  text-align: center;}
+
+.somm{
+  color: #590AE8;}
+
+#explication, #histoire, #outils{color: #C118FF;}
+
+blockquote{margin-left: 20px;}
+blockquote:hover{font-style:italic;}
+
+a{
+  text-decoration: none;}
+
+a:hover{
+  font-size: 18px;}
