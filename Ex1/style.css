@@ -19,6 +19,13 @@ body{padding: 0px 5px 0px 5px;}
   right:50%;
   color: #590AE8;}
 
+  nav{
+    position:absolute;
+    top: 40px;
+    left: 33%;
+
+  }
+
 #explication, #histoire, #outils{
   color: #C118FF;
   text-align: center;
