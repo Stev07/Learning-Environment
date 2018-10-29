@@ -11,17 +11,42 @@ header{
     background: #262d30;
     grid-column: 1/4 ;
     grid-row:1;
-    display:flex;
-}
-.header-name{color:white;}
-.header-span{color:#3b94ce;}
-.header-photo > img{
-    width:80px;
+    display:grid;
+    grid-template-columns: 10% 25% 45% auto;
+    justify-content: center;
 }
 
+.header-photo{
+    grid-column: 1/2;
+}
+
+.header-photo > img{
+    width:80px;
+    border:1px solid black;
+    border-radius: 100px;
+    margin-top:5px;
+    margin-left: 25px;
+
+}
+
+.header-name{
+    grid-column: 2/3;
+    color:white;
+    }
+
+.header-name h1{
+    align-self:center;
+    font-size: 45px;
+}
+
+.header-span{color:#3b94ce;}
+
+
 .header-infos{
+    grid-column: 4/5;
     color: #939697;
-    
+    justify-self: end;
+    margin-right: 20px;
 }
 
 li{list-style: none;}
@@ -29,6 +54,7 @@ li{list-style: none;}
 .header-logos{
     width:25px;
     height: 25px;
+    margin-right: 10px;
 }
 
 aside{
