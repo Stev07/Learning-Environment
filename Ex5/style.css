@@ -61,6 +61,27 @@ aside{
     background:#dbdbda;
     grid-column:1/2 ;
     grid-row:2/3;
+    display:flex;
+    flex-direction: column;
+}
+.aside-2{
+display:flex;
+flex-wrap: wrap;
+}
+
+.hobbies{width:100%;}
+.hobbies-logosize{
+    width:50%;
+    margin-bottom: 40px;
+}
+
+.presentation, .hobbies{font-size: 1.5em;}
+
+.separation{
+    margin: 0 auto;
+    width: 90%;
+    height: 3px;
+    background: #262d30;
 }
 
 section{
@@ -73,3 +94,5 @@ footer{
     grid-column:1/4 ;
     grid-row:3;
 }
+
+.center{text-align: center}
