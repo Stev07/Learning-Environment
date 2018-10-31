@@ -4,7 +4,7 @@ body{margin:0; padding: 0;}
     height: 100vh;
     display:grid;
     grid-template-columns: 18% 1fr 1fr;
-    grid-template-rows: 150px auto 40px;
+    grid-template-rows: 150px auto 30px;
 }
 
 header{
@@ -12,20 +12,18 @@ header{
     grid-column: 1/4 ;
     grid-row:1;
     display:grid;
-    grid-template-columns: 10% 25% 45% auto;
+    grid-template-columns: 18% 30% 30% 22%
     justify-content: center;
 }
 
 .header-photo{
     grid-column: 1/2;
+    text-align: center;
 }
 
 .header-photo > img{
-    width:80px;
-    border:1px solid black;
-    border-radius: 100px;
-    margin-top:5px;
-    margin-left: 25px;
+    width:120px;
+    height: 100%;
 
 }
 
@@ -43,13 +41,12 @@ header{
 
 
 .header-infos{
-    grid-column: 4/5;
+    grid-column: 5;
     color: #939697;
-    justify-self: end;
-    margin-right: 20px;
+    justify-self: start;
 }
 
-li{list-style: none;}
+header li{list-style: none;}
 
 .header-logos{
     width:25px;
@@ -65,11 +62,14 @@ aside{
     flex-direction: column;
 }
 .aside-2{
-display:flex;
-flex-wrap: wrap;
+    display:flex;
+    flex-wrap: wrap;
 }
 
-.hobbies{width:100%;}
+.hobbies{
+    width:100%;
+    padding-top:30px;}
+
 .hobbies-logosize{
     width:50%;
     margin-bottom: 40px;
@@ -78,15 +78,30 @@ flex-wrap: wrap;
 .presentation, .hobbies{font-size: 1.5em;}
 
 .separation{
-    margin: 0 auto;
-    width: 90%;
+    margin: 10px auto;
+    width: 95%;
     height: 3px;
     background: #262d30;
 }
-
+p.center{
+    font-size:20px;
+}
 section{
     grid-column:2/4 ;
     grid-row:2/3 ;
+    padding: 10px 30px;
+}
+
+section li{
+    list-style: none;
+    margin-bottom: 10px;    
+}
+
+.skills-content{
+    width: 300px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15px 15px 15px 15px;
 }
 
 footer{
@@ -95,4 +110,4 @@ footer{
     grid-row:3;
 }
 
-.center{text-align: center}
+.center{text-align: center;}
