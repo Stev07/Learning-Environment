@@ -97,12 +97,59 @@ section li{
     margin-bottom: 10px;    
 }
 
+.section-3{padding-left: 40px;}
+
 .skills-content{
-    width: 300px;
+    width: 100%;
     display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 15px 15px 15px 15px;
+    grid-template-columns:1fr 1fr;
 }
+
+.skills-perso{
+    grid-column: 1;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:100px 100px;
+}
+
+.skills-competences{
+    grid-column: 2;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:100px 100px;
+}
+
+.skills-perso-1{grid-column:1;grid-row:1;}
+.skills-perso-2{grid-column:1;grid-row:2;}
+.skills-perso-3{grid-column:2;grid-row:1;}
+.skills-perso-4{grid-column:2;grid-row:2;}
+
+.skills-competences-1{grid-column:1;grid-row:1;}
+.skills-competences-2{grid-column:1;grid-row:2;}
+.skills-competences-3{grid-column:2;grid-row:1;}
+.skills-competences-4{grid-column:2;grid-row:2;}
+
+
+
+.skillbar-container{
+    width: 75%;
+    background-color: #ddd;
+}
+
+.skillbar {
+    text-align: right;
+    padding: 10px;
+    color: white;
+}
+.commu {width: 85%; background: rgb(33, 161, 184);}
+.creativite {width: 30%; background: rgb(159, 73, 185);} 
+.equipe {width: 75%; background: #0e0e0d;}
+.stress {width: 50%; background: #1c0cac;}
+
+.html {width: 70%; background: #4CAF50;}
+.css {width: 70%; background: #2196F3;} 
+.js {width: 20%; background: #f44336;}
+.php {width: 0%; background: #808080;}
 
 footer{
     background: #262d30;
